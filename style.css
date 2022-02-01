@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(184, 179, 179);
+    font-family: 'Anton', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+
+
+}
+.sidebar nav{
+    padding: 15px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+
+}
+.infocontainer{
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinf0{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+
+}
+.name{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+
+
+}
+.about{
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    
+
+}
+.moreabout{
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+
+
+}
+.button{
+    margin-top: 34px;
+
+    
+}
+.button button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.button button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.dev img{
+    height: 58vh;
+
+}
+.contactform{
+    font-family: 'Anton', sans-serif;
+    padding: 30px;
+    margin: 0px 88px;
+    
+
+}
+.contactform h1{
+    font-family: 'Anton', sans-serif;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 20vw;
+    border-radius: 15px;
+    margin:0px 0px;
+    padding: 10px;
+}
+#emailHelp{
+    font-size: 8px;
+    color:dodgerblue;
+    margin: 0 5px;
+}
+.Sameer{
+    color:white;
+    background-color: dodgerblue;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+.Sameer:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.blogitem {
+    margin: 20px;
+    font-family: 'Anton', sans-serif;
+
+}
+.skillcontainer h1{
+    font-family: 'Anton', sans-serif;
+    margin: 50px;
+    padding top: 30px;
+
+}
+.blogitem p{
+    font-family: cursive;
+
+}
+.devinfo{
+    font-family: cursive;
+    
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}    
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 144px;
+    margin-top: 8px;
+}
+@media (max-width: 1200px){
+  *{
+      /*background-color: aqua; */
+  }
+  .devpic{
+      display: none;
+  }
+ /* .sidebar{
+      transform: translate(-443px,0px);
+      position: absolute;
+  }  
+}
+
+
